@@ -1,4 +1,3 @@
-import Link from "next/dist/client/link"
 import Layout from "../components/layout"
 
 export default function Nosotros() {
@@ -7,8 +6,9 @@ export default function Nosotros() {
     title={'Nosotros'}
     description={'App en NextJS'}
     >
-        <div>nosotros</div>
-        <Link href="/" >Ir al inicio</Link>
+        
+    <h1>Nosotros</h1>
+        
     </Layout>
   )
 }
