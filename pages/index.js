@@ -5,7 +5,10 @@ export default function Home() {
   return (
 
     <>
-      <Layout>
+      <Layout 
+      title={'Inicio'}
+      description={'App en NEXT'}
+      >
         <h1>Hola!</h1> 
         <Link href="/nosotros" >Nosotros</Link>  
       </Layout>

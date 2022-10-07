@@ -1,9 +1,18 @@
+import Head from "next/head"
+import Header from "./header"
+import Footer from "./footer"
 
-export default function Layout({children}) {
+export default function Layout({children, title = '', description = ''}) {
   return (
     <>
-        <h1>Desde el layout</h1>
+        <Head>
+            <title>{`GuitarLA - ${title}`}</title>
+            <meta name="description" description={description} />
+        </Head>
+        <Header />
         {children}
+        <Footer />
+
     </>
   )
 }
