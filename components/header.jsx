@@ -3,7 +3,6 @@ import Link from 'next/dist/client/link'
 import { useRouter } from 'next/router'
 import styles from '../styles/header.module.css'
 
-
 export default function Header() {
 
   const router = useRouter()

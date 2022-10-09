@@ -18,6 +18,7 @@
     }
 }
 
+
 .navegacion{
     margin-top: 5rem;
     display: flex;
@@ -40,7 +41,6 @@
     transition-property: background-color;
     transition-duration: 300ms;
 }
-
 
 .navegacion a:hover, .active{
     background-color: var(--primary);
